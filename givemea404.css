@@ -60,8 +60,8 @@ body {
   width: 100%;
   height: 100%;
   line-height: 80px;
-  background-color: red;
-  color: #fff;
+  background-color: #00F;
+  color: #FFF;
   cursor: pointer;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -69,7 +69,7 @@ body {
   transition: background 0.15s ease, line-height 0.8s cubic-bezier(0.23, 1, 0.32, 1); }
 
 .btn-front:hover {
-  background-color: #8B0000; }
+  background-color: 000884; }
 
 .btn.is-open .btn-front {
   pointer-events: none;
@@ -105,12 +105,12 @@ body {
   .btn-back button:focus {
     outline: 0; }
   .btn-back button.yes {
-    background-color: red ;
-    color: #ffffff; }
+    background-color: #000FFF ;
+    color: #FFFFFF; }
     .btn-back button.yes:hover {
-      background-color: #8B0000; }
+      background-color: #000884; }
   .btn-back button.no {
-    color: red;
+    color: #000fff;
 }
     .btn-back button.no:hover {
       background-color: #8b9dc3; }
